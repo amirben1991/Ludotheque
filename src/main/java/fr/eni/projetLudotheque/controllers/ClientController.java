@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping
 public class ClientController {
 	
-	@GetMapping("/Clients")
+	@GetMapping("/clients")
 	public String greeting() {
-		return "Clients";
+		return "clients";
 	}
-	
 	
 }

@@ -10,9 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping
 public class JeuController {
 
-	@GetMapping("/Jeux")
+	@GetMapping("/jeux")
 	public String affichageJeux() {
-		return "Jeux";
-		
+		return "jeux";
 	}
 }
